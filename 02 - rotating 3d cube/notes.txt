@@ -1,0 +1,24 @@
+- Vector: 4 numbers representing an X, Y, and Z position in 3D space, along with a 4th component:
+(1 for positions, 0 for directions)
+
+1 to the "right", 4 "up" and 5 "forward"
+[2,4,5,1]
+
+- Matrix: 4x4 set of numbers (in graphics programming) that represents some mutation (transformation) to perform on a vector.
+
+Identity matrix (no operation):
+[1,0,0,0]
+[0,1,0,0]
+[0,0,1,0]
+[0,0,0,1]
+
+Matrix * Matrix = Matrix
+Matrix * Vector = Vector
+
+--
+Translation Matrix (Move in Space)
+Rotation Matrix (Spins one around)
+Scale Matrix
+
+View Transform (Adjust virtual camera)
+Projection Transform (Map 3D virtual space to 2D screen space)
